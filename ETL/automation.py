@@ -5,14 +5,14 @@ import mysql.connector
 import ibm_db
 
 # Connect to MySQL
-connection = mysql.connector.connect(user='root', password='MjA5ODgtdTEycmlz',host='127.0.0.1',database='sales')
+connection = mysql.connector.connect(user='root', password='<password>',host='127.0.0.1',database='sales')
 cursor = connection.cursor()
 
 # Connect to DB2
-dsn_hostname = "1bbf73c5-d84a-4bb0-85b9-ab1a4348f4a4.c3n41cmd0nqnrk39u98g.databases.appdomain.cloud" # e.g.: "dashdb-txn-sbox-yp-dal09-04.services.dal.bluemix.net"
-dsn_uid = "lbk74418"        # e.g. "abc12345"
-dsn_pwd = "y5P8fBDzoidtP4lh"      # e.g. "7dBZ3wWt9XN6$o0J"
-dsn_port = "32286"                # e.g. "50000" 
+dsn_hostname = "<hostname>" # e.g.: "dashdb-txn-sbox-yp-dal09-04.services.dal.bluemix.net"
+dsn_uid = "<uid>"        # e.g. "abc12345"
+dsn_pwd = "<password>"      # e.g. "7dBZ3wWt9XN6$o0J"
+dsn_port = "<port>"                # e.g. "50000" 
 dsn_database = "bludb"            # i.e. "BLUDB"
 dsn_driver = "{IBM DB2 ODBC DRIVER}" # i.e. "{IBM DB2 ODBC DRIVER}"           
 dsn_protocol = "TCPIP"            # i.e. "TCPIP"
