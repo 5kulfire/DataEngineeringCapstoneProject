@@ -3,7 +3,7 @@ This project is made for IBM Data Engineering Professional Certificate course.
 
 1. The first step includes setting up MySQL as the OLTP DB.
 2. The second step consists of setting up MongoDB as NoSQL database. 
-3. In the third step, IBM DB2 has been used as a data warehouse to generate BI reports and analytics.
+3. In the third step, PostgreSQL is used as a staging warehouse and IBM DB2 has been used as a production data warehouse to generate BI reports and analytics.
 4. IBM Cognos has beeen used as the BI tool to generate analytics and reports from our Db2 warehouse.
 5. Apache airflow is then used to create a DAG to ETL the given data.
 6. In this final step, the data from a webserver is used to analyse search terms and we need to deploy a pretrained sales forecasting model and predict the sales forecast for a future year.
